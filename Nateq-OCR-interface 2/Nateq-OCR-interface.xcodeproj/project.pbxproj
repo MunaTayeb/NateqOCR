@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EECFD23828F91405922E2BB /* Pods_Nateq_OCR_interface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C8472021A6D64CA6AFAE84 /* Pods_Nateq_OCR_interface.framework */; };
+		1039F1151E75232F0013C95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1039F1141E75232F0013C95C /* AppDelegate.swift */; };
+		1039F1171E75232F0013C95C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1039F1161E75232F0013C95C /* HomeViewController.swift */; };
+		1039F11A1E75232F0013C95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1039F1181E75232F0013C95C /* Main.storyboard */; };
+		1039F11C1E75232F0013C95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1039F11B1E75232F0013C95C /* Assets.xcassets */; };
+		1039F11F1E75232F0013C95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1039F11D1E75232F0013C95C /* LaunchScreen.storyboard */; };
+		1039F1271E7525CF0013C95C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1039F1261E7525CF0013C95C /* Alamofire.framework */; };
+		1039F1291E7525D50013C95C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1039F1281E7525D50013C95C /* SwiftyJSON.framework */; };
+		1039F12D1E75D2870013C95C /* ManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1039F12C1E75D2870013C95C /* ManualViewController.swift */; };
+		10895DDD1E781E0900E07D87 /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10895DDC1E781E0900E07D87 /* FrameExtractor.swift */; };
+		10895DDF1E781E9500E07D87 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10895DDE1E781E9500E07D87 /* AnswerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1039F1111E75232F0013C95C /* Nateq-OCR-interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nateq-OCR-interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1039F1141E75232F0013C95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1039F1161E75232F0013C95C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1039F1191E75232F0013C95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1039F11B1E75232F0013C95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1039F11E1E75232F0013C95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1039F1201E75232F0013C95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1039F1261E7525CF0013C95C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/Nateq-OCR-interface-eifwlessirpyunfvwldebvnijltz/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		1039F1281E7525D50013C95C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/Nateq-OCR-interface-eifwlessirpyunfvwldebvnijltz/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		1039F12C1E75D2870013C95C /* ManualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualViewController.swift; sourceTree = "<group>"; };
+		10895DDA1E7813F100E07D87 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Main.strings"; sourceTree = "<group>"; };
+		10895DDB1E7813F200E07D87 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		10895DDC1E781E0900E07D87 /* FrameExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
+		10895DDE1E781E9500E07D87 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		3D9BE31B1C9EDA4D745569CE /* Pods-Nateq-OCR-interface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nateq-OCR-interface.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nateq-OCR-interface/Pods-Nateq-OCR-interface.release.xcconfig"; sourceTree = "<group>"; };
+		8C4CB9EE93E0E23E0855268C /* Pods-Nateq-OCR-interface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nateq-OCR-interface.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nateq-OCR-interface/Pods-Nateq-OCR-interface.debug.xcconfig"; sourceTree = "<group>"; };
+		B9C8472021A6D64CA6AFAE84 /* Pods_Nateq_OCR_interface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nateq_OCR_interface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1039F10E1E75232F0013C95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1039F1291E7525D50013C95C /* SwiftyJSON.framework in Frameworks */,
+				1039F1271E7525CF0013C95C /* Alamofire.framework in Frameworks */,
+				0EECFD23828F91405922E2BB /* Pods_Nateq_OCR_interface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1039F1081E75232F0013C95C = {
+			isa = PBXGroup;
+			children = (
+				1039F1131E75232F0013C95C /* Nateq-OCR-interface */,
+				1039F1121E75232F0013C95C /* Products */,
+				FD88A7B90BCB718FBA029A14 /* Pods */,
+				2912C2C6C75C01DAE8CB3B32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1039F1121E75232F0013C95C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1039F1111E75232F0013C95C /* Nateq-OCR-interface.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1039F1131E75232F0013C95C /* Nateq-OCR-interface */ = {
+			isa = PBXGroup;
+			children = (
+				1039F1141E75232F0013C95C /* AppDelegate.swift */,
+				10895DDE1E781E9500E07D87 /* AnswerViewController.swift */,
+				1039F1161E75232F0013C95C /* HomeViewController.swift */,
+				1039F12C1E75D2870013C95C /* ManualViewController.swift */,
+				10895DDC1E781E0900E07D87 /* FrameExtractor.swift */,
+				1039F1181E75232F0013C95C /* Main.storyboard */,
+				1039F11B1E75232F0013C95C /* Assets.xcassets */,
+				1039F11D1E75232F0013C95C /* LaunchScreen.storyboard */,
+				1039F1201E75232F0013C95C /* Info.plist */,
+			);
+			path = "Nateq-OCR-interface";
+			sourceTree = "<group>";
+		};
+		2912C2C6C75C01DAE8CB3B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1039F1281E7525D50013C95C /* SwiftyJSON.framework */,
+				1039F1261E7525CF0013C95C /* Alamofire.framework */,
+				B9C8472021A6D64CA6AFAE84 /* Pods_Nateq_OCR_interface.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD88A7B90BCB718FBA029A14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C4CB9EE93E0E23E0855268C /* Pods-Nateq-OCR-interface.debug.xcconfig */,
+				3D9BE31B1C9EDA4D745569CE /* Pods-Nateq-OCR-interface.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1039F1101E75232F0013C95C /* Nateq-OCR-interface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1039F1231E75232F0013C95C /* Build configuration list for PBXNativeTarget "Nateq-OCR-interface" */;
+			buildPhases = (
+				FA14A14293CDB30106013235 /* [CP] Check Pods Manifest.lock */,
+				1039F10D1E75232F0013C95C /* Sources */,
+				1039F10E1E75232F0013C95C /* Frameworks */,
+				1039F10F1E75232F0013C95C /* Resources */,
+				E94BE7582C3F6FC1176514B4 /* [CP] Embed Pods Frameworks */,
+				1F04F88A4E31AD3EB9F1B425 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nateq-OCR-interface";
+			productName = "Nateq-OCR-interface";
+			productReference = 1039F1111E75232F0013C95C /* Nateq-OCR-interface.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1039F1091E75232F0013C95C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maha;
+				TargetAttributes = {
+					1039F1101E75232F0013C95C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJBAN7AJ77;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1039F10C1E75232F0013C95C /* Build configuration list for PBXProject "Nateq-OCR-interface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1039F1081E75232F0013C95C;
+			productRefGroup = 1039F1121E75232F0013C95C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1039F1101E75232F0013C95C /* Nateq-OCR-interface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1039F10F1E75232F0013C95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1039F11F1E75232F0013C95C /* LaunchScreen.storyboard in Resources */,
+				1039F11C1E75232F0013C95C /* Assets.xcassets in Resources */,
+				1039F11A1E75232F0013C95C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F04F88A4E31AD3EB9F1B425 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nateq-OCR-interface/Pods-Nateq-OCR-interface-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94BE7582C3F6FC1176514B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nateq-OCR-interface/Pods-Nateq-OCR-interface-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA14A14293CDB30106013235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1039F10D1E75232F0013C95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10895DDF1E781E9500E07D87 /* AnswerViewController.swift in Sources */,
+				1039F1171E75232F0013C95C /* HomeViewController.swift in Sources */,
+				1039F12D1E75D2870013C95C /* ManualViewController.swift in Sources */,
+				1039F1151E75232F0013C95C /* AppDelegate.swift in Sources */,
+				10895DDD1E781E0900E07D87 /* FrameExtractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1039F1181E75232F0013C95C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1039F1191E75232F0013C95C /* Base */,
+				10895DDA1E7813F100E07D87 /* ar-SA */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1039F11D1E75232F0013C95C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1039F11E1E75232F0013C95C /* Base */,
+				10895DDB1E7813F200E07D87 /* ar-SA */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1039F1211E75232F0013C95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1039F1221E75232F0013C95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1039F1241E75232F0013C95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4CB9EE93E0E23E0855268C /* Pods-Nateq-OCR-interface.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Nateq-OCR-interface/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nateq.OCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1039F1251E75232F0013C95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9BE31B1C9EDA4D745569CE /* Pods-Nateq-OCR-interface.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = "Nateq-OCR-interface/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nateq.OCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1039F10C1E75232F0013C95C /* Build configuration list for PBXProject "Nateq-OCR-interface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1039F1211E75232F0013C95C /* Debug */,
+				1039F1221E75232F0013C95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1039F1231E75232F0013C95C /* Build configuration list for PBXNativeTarget "Nateq-OCR-interface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1039F1241E75232F0013C95C /* Debug */,
+				1039F1251E75232F0013C95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1039F1091E75232F0013C95C /* Project object */;
+}
