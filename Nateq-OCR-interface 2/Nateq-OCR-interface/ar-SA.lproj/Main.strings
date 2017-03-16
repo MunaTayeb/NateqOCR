@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "أعد قراءة النص"; ObjectID = "3QA-hf-KgL"; */
+"3QA-hf-KgL.normalTitle" = "أعد قراءة النص";
+
+/* Class = "UIButton"; normalTitle = "التقاط صورة"; ObjectID = "8E1-Ev-fVP"; */
+"8E1-Ev-fVP.normalTitle" = "التقاط صورة";
+
+/* Class = "UIButton"; normalTitle = "تعليمات"; ObjectID = "9YE-up-jjE"; */
+"9YE-up-jjE.normalTitle" = "تعليمات";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "اختيار صورة من الإستديو"; ObjectID = "O0d-ek-4uN"; */
+"O0d-ek-4uN.normalTitle" = "اختيار صورة من الإستديو";
+
+/* Class = "UIButton"; normalTitle = "إغلاق"; ObjectID = "O9V-Qb-LyT"; */
+"O9V-Qb-LyT.normalTitle" = "إغلاق";
+
+/* Class = "UIViewController"; title = "Manual"; ObjectID = "VdL-gq-h7x"; */
+"VdL-gq-h7x.title" = "Manual";
+
+/* Class = "UINavigationItem"; title = "ناطق"; ObjectID = "kOQ-MG-bMg"; */
+"kOQ-MG-bMg.title" = "ناطق";
